@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385346467655",
+    "project_id": "aplicativoos-82158",
+    "storage_bucket": "aplicativoos-82158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385346467655:android:6371ca2a8c1ba4bbd33e62",
+        "android_client_info": {
+          "package_name": "com.example.aplicativoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385346467655-2dj9lraeduduo0d6thuj64taat38rvlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-AfDnAPNN8OsPCohRsMyTRYgveRKFNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385346467655-2dj9lraeduduo0d6thuj64taat38rvlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
