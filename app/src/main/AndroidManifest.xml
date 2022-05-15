@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicativoOS">
         <activity
+            android:name=".Activity.RegistroEmpresa"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Registro"
             android:exported="false" />
         <activity

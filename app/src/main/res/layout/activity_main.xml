@@ -5,17 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/design_default_color_surface"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Cadastrar Ordem de Serviço  "
+        android:background="#30ffffff"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btn_consulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Consultar Ordem de Serviço  "
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Logout"
-        android:background="@color/cardview_shadow_start_color"
-        android:layout_marginTop="600dp"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
         />
 
 </LinearLayout>

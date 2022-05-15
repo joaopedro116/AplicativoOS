@@ -15,31 +15,29 @@
         android:text="Criar Conta"
         android:textColor="@color/white"
         android:textSize="40sp"
-        android:layout_marginBottom="120dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para Empresas"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginBottom="60dp"
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/edt_nome_register"
+        android:id="@+id/edt_nome_empresa_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:hint="Nome"
+        android:hint="Nome da Empresa"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:backgroundTint="@color/white" />
 
     <EditText
-        android:id="@+id/edt_sobrenome_register"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:hint="Sobrenome"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/white" />
-
-    <EditText
-        android:id="@+id/edt_email_register"
+        android:id="@+id/edt_email_empresa_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:hint="E-mail"
@@ -49,7 +47,7 @@
         android:backgroundTint="@color/white" />
 
     <EditText
-        android:id="@+id/edt_senha_register"
+        android:id="@+id/edt_senha_empresa_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:hint="Senha"
@@ -60,7 +58,7 @@
         android:layout_marginTop="10dp"/>
 
     <EditText
-        android:id="@+id/edt_confirmar_senha_register"
+        android:id="@+id/edt_confirmar_senha_empresa_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:hint="Confirmar Senha"
@@ -78,26 +76,16 @@
         android:buttonTint="@color/white"
         android:layout_marginRight="70dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/ckb_mostrar_senha_register"/>
+        android:id="@+id/ckb_mostrar_senha_empresa_register"/>
 
     <Button
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:background="#30ffffff"
-        android:textColor="@color/white"
+        android:background="@color/white"
+        android:textColor="@android:color/holo_red_light"
         android:text="Registrar"
         android:layout_marginTop="20dp"
-        android:id="@+id/btn_registrar_register" />
-
-    <Button
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:background="#30ffffff"
-        android:textColor="@color/white"
-        android:text="Registrar Empresa"
-        android:layout_marginTop="20dp"
-        android:id="@+id/btn_registrarempresa_register" />
-
+        android:id="@+id/btn_registrar_empresa_register" />
 
     <Button
         android:layout_width="280dp"
@@ -106,12 +94,12 @@
         android:textColor="@color/white"
         android:text="Login"
         android:layout_marginTop="20dp"
-        android:id="@+id/btn_login_register" />
+        android:id="@+id/btn_login_empresa_register" />
 
     <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/loginProgressBar_register"
+        android:id="@+id/loginProgressBar_empresa_register"
         android:indeterminateTint="@color/white"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:visibility="invisible"
