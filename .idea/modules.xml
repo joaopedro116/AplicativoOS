@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AplicativoOS.iml" filepath="$PROJECT_DIR$/.idea/modules/AplicativoOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AplicativoOS.app.unitTest.iml" />
     </modules>
   </component>
 </project>

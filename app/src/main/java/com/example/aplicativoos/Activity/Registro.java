@@ -97,7 +97,8 @@ public class Registro extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
                                     userModel.setId(mAuth.getUid());
-                                    userModel.salvar();
+//                                    userModel.salvar();
+
                                     abrirTelaPrincipal();
                                 }else{
                                     String error;
