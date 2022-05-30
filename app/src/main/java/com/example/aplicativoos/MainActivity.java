@@ -10,8 +10,11 @@ import android.widget.Button;
 import com.example.aplicativoos.Activity.Login;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivity extends AppCompatActivity {
+
 
     /*Iniciando Variaveis de login e logout*/
     private FirebaseAuth mAuth;
