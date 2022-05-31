@@ -47,6 +47,16 @@
         android:backgroundTint="@color/white" />
 
     <EditText
+        android:id="@+id/edt_cnpj_empresa_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="CNPJ"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white" />
+
+    <EditText
         android:id="@+id/edt_senha_empresa_register"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
